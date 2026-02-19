@@ -1,0 +1,16 @@
+Team ID:LTVIP2026TMIDS89201 
+
+Project Name:
+ToyCraft Tales: Tableau's Vision into Toy Manufacturer Data
+
+
+
+Dashboard:
+
+https://public.tableau.com/views/Toycraftdashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
+
+Story:
+
+https://public.tableau.com/views/Toycraft/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link

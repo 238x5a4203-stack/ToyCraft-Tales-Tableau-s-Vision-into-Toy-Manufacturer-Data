@@ -1,0 +1,1366 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0109.0333                               -->
+<workbook original-version='18.1' source-build='2025.3.2 (20253.26.0109.0333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' inline='true' name='federated.0pt1slz1bj5ybq1955ll90puhocg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='textscan.0jl8lff0xnvtiq1f3rwuk1ei05k3'>
+            <connection class='textscan' directory='C:/Users/Poojitha/Downloads' filename='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0jl8lff0xnvtiq1f3rwuk1ei05k3' name='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' table='[Week 39 - US Toy Manufacturers - 2005 to 2016#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='index' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Number of Manufacturers' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[index]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>index</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Manufacturers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Manufacturers]</local-name>
+            <parent-name>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv]</parent-name>
+            <remote-alias>Number of Manufacturers</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Manufacturers' datatype='integer' name='[Calculation_2275443736973688832]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Number of Manufacturers])' />
+      </column>
+      <column aggregation='None' caption='Index (bin)' datatype='integer' name='[Index (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[index]' peg='0' size='20' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]' role='measure' type='quantitative' />
+      <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+      <column-instance column='[index]' derivation='Count' name='[cnt:index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0zqgkq81nxkno418rmtyo0lmrcsf.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/26/2025 09:50:10 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>index</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>index</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>591</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Manufacturers</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Manufacturers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Manufacturers</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Week 39 - US Toy Manufacturers - 2005 to 2016.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='ordinal' measure-ordering='ordinal' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[cnt:index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Connecticut&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South Carolina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Missouri&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ohio&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Illinois&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hawaii&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;North Carolina&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New Jersey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;West Virginia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Arizona&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Montana&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Utah&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Oregon&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Maine&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alabama&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;North Dakota&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;South Dakota&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kentucky&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Arkansas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nebraska&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vermont&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Indiana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Idaho&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Iowa&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Louisiana&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maryland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Colorado&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Minnesota&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kansas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Oklahoma&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wyoming&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Alaska&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mississippi&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' id='Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD'>
+            <properties context=''>
+              <relation connection='textscan.0jl8lff0xnvtiq1f3rwuk1ei05k3' name='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' table='[Week 39 - US Toy Manufacturers - 2005 to 2016#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='index' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='integer' name='Number of Manufacturers' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Light'>Analysis on Number of Manufacturers by Year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.0pt1slz1bj5ybq1955ll90puhocg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pt1slz1bj5ybq1955ll90puhocg'>
+            <column datatype='integer' name='[Number of Manufacturers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Manufacturers]' derivation='Sum' name='[sum:Number of Manufacturers:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffaa00' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <text column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:Number of Manufacturers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:Number of Manufacturers:qk]</rows>
+        <cols>[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{806DEB7D-C277-43D0-B14D-876D39D43F5A}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#2d2828' fontname='Tableau Light'>Top 10 states toy manufacturer in US state</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.0pt1slz1bj5ybq1955ll90puhocg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pt1slz1bj5ybq1955ll90puhocg'>
+            <column caption='Total Manufacturers' datatype='integer' name='[Calculation_2275443736973688832]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Number of Manufacturers])' />
+            </column>
+            <column datatype='integer' name='[Number of Manufacturers]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2275443736973688832]' derivation='User' name='[usr:Calculation_2275443736973688832:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_2275443736973688832]' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alaska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Hawaii&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Puerto Rico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;California&quot;</bucket>
+              <bucket>&quot;New York&quot;</bucket>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+              <bucket>&quot;Florida&quot;</bucket>
+              <bucket>&quot;Illinois&quot;</bucket>
+              <bucket>&quot;Ohio&quot;</bucket>
+              <bucket>&quot;Colorado&quot;</bucket>
+              <bucket>&quot;Texas&quot;</bucket>
+              <bucket>&quot;Michigan&quot;</bucket>
+              <bucket>&quot;Oregon&quot;</bucket>
+              <bucket>&quot;Washington&quot;</bucket>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+              <bucket>&quot;Missouri&quot;</bucket>
+              <bucket>&quot;Indiana&quot;</bucket>
+              <bucket>&quot;Minnesota&quot;</bucket>
+              <bucket>&quot;New Jersey&quot;</bucket>
+              <bucket>&quot;Arizona&quot;</bucket>
+              <bucket>&quot;Georgia&quot;</bucket>
+              <bucket>&quot;North Carolina&quot;</bucket>
+              <bucket>&quot;Utah&quot;</bucket>
+              <bucket>&quot;Connecticut&quot;</bucket>
+              <bucket>&quot;Maryland&quot;</bucket>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+              <bucket>&quot;Vermont&quot;</bucket>
+              <bucket>&quot;Iowa&quot;</bucket>
+              <bucket>&quot;Maine&quot;</bucket>
+              <bucket>&quot;Nevada&quot;</bucket>
+              <bucket>&quot;Virginia&quot;</bucket>
+              <bucket>&quot;Montana&quot;</bucket>
+              <bucket>&quot;Tennessee&quot;</bucket>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+              <bucket>&quot;Kentucky&quot;</bucket>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+              <bucket>&quot;Arkansas&quot;</bucket>
+              <bucket>&quot;Idaho&quot;</bucket>
+              <bucket>&quot;Kansas&quot;</bucket>
+              <bucket>&quot;Nebraska&quot;</bucket>
+              <bucket>&quot;West Virginia&quot;</bucket>
+              <bucket>&quot;Alabama&quot;</bucket>
+              <bucket>&quot;Mississippi&quot;</bucket>
+              <bucket>&quot;South Carolina&quot;</bucket>
+              <bucket>&quot;Oklahoma&quot;</bucket>
+              <bucket>&quot;Louisiana&quot;</bucket>
+              <bucket>&quot;Wyoming&quot;</bucket>
+              <bucket>&quot;South Dakota&quot;</bucket>
+              <bucket>&quot;New Mexico&quot;</bucket>
+              <bucket>&quot;North Dakota&quot;</bucket>
+              <bucket>&quot;Delaware&quot;</bucket>
+              <bucket>&quot;Alaska&quot;</bucket>
+              <bucket>&quot;Hawaii&quot;</bucket>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' scope='rows' value='1' />
+            <format attr='border-style' scope='rows' value='solid' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' scope='rows' value='1' />
+            <format attr='border-style' scope='rows' value='solid' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' scope='rows' value='1' />
+            <format attr='border-style' scope='rows' value='solid' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f1f0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffaa00' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' value='3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' />
+              <text column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[usr:Calculation_2275443736973688832:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]</rows>
+        <cols>[federated.0pt1slz1bj5ybq1955ll90puhocg].[usr:Calculation_2275443736973688832:qk]</cols>
+      </table>
+      <simple-id uuid='{568F2321-5A3D-46FC-8FE8-87A97498A5B8}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#2d2828' fontname='Tableau Light'>Analysis on Toy Manufacturer by index</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.0pt1slz1bj5ybq1955ll90puhocg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pt1slz1bj5ybq1955ll90puhocg'>
+            <column aggregation='None' caption='Index (bin)' datatype='integer' name='[Index (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='1' formula='[index]' peg='0' size='20' />
+            </column>
+            <column-instance column='[index]' derivation='Count' name='[cnt:index:qk]' pivot='key' type='quantitative' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[Index (bin)]' derivation='None' name='[none:Index (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[cnt:index:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f1f0' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='background-color' value='#ffaa00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0pt1slz1bj5ybq1955ll90puhocg].[cnt:index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0pt1slz1bj5ybq1955ll90puhocg].[cnt:index:qk] + [federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk])</rows>
+        <cols>[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:Index (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.0pt1slz1bj5ybq1955ll90puhocg].[Index (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{AB9D3CAB-968A-4D32-A9BF-B8641C1752BB}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Light'>Analysis on Toy Manufacturers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.0pt1slz1bj5ybq1955ll90puhocg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pt1slz1bj5ybq1955ll90puhocg'>
+            <column datatype='integer' name='[Number of Manufacturers]' role='measure' type='quantitative' />
+            <column caption='Week 39 - US Toy Manufacturers - 2005 to 2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD:qk]' pivot='key' type='quantitative' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[Number of Manufacturers]' derivation='Sum' name='[sum:Number of Manufacturers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[__tableau_internal_object_id__].[cnt:Week 39 - US Toy Manufacturers - 2005 to 2016.csv_6DB8154200C84F3B960DC3D7C58F49FD:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:Number of Manufacturers:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-style' scope='rows' value='solid' />
+            <format attr='border-width' scope='rows' value='2' />
+            <format attr='border-color' scope='rows' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#1b1b1b' />
+            <format attr='border-width' value='1' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-weight' scope='rows' value='bold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f1f0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffaa00' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pt1slz1bj5ybq1955ll90puhocg].[Multiple Values]</rows>
+        <cols>[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{6EABEB9F-9ECC-425B-9588-9B99EA796405}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light'>Analysis on Toy Manufacturers in US States by Index</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Week 39 - US Toy Manufacturers - 2005 to 2016' name='federated.0pt1slz1bj5ybq1955ll90puhocg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pt1slz1bj5ybq1955ll90puhocg'>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='Attribute' name='[attr:State:nk]' pivot='key' type='nominal' />
+            <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[index]' derivation='Sum' name='[sum:index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([index])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Alaska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Hawaii&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Puerto Rico&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f1f0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffaa00' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#1b1b1b' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' />
+              <wedge-size column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]' />
+              <tooltip column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[attr:State:nk]' />
+              <text column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[sum:index:qk]' />
+              <text column='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{18968F9A-A182-4EA2-8EFA-DB440157720B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#020206c6' fontname='Tableau Light'>ToyCraft Tales:  Tableau&apos;s Vision into Toy Manufacturer Data</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#faf3ee' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#ffaa7f' />
+        </style-rule>
+      </style>
+      <size maxheight='960' maxwidth='1750' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='5' param='vert' type-v2='layout-flow' w='99034' x='483' y='940'>
+            <zone h='5758' id='7' type-v2='title' w='99034' x='483' y='940'>
+              <zone-style>
+                <format attr='border-color' value='#1b1b1b' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='2' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92362' id='6' type-v2='layout-basic' w='99034' x='483' y='6698'>
+              <zone-style>
+                <format attr='border-color' value='#1b1b1b' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='2' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='42322' id='8' name='Sheet 1' w='29720' x='37942' y='8489' />
+        <zone h='43446' id='9' name='Sheet 2' w='32400' x='2375' y='8365' />
+        <zone h='43196' id='13' name='Sheet 3' w='32156' x='2253' y='53308' />
+        <zone h='40949' id='14' name='Sheet 4' w='29415' x='38429' y='55056' />
+        <zone h='56679' id='15' name='Sheet 5' w='27406' x='70037' y='16355' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#020206c6' fontname='Tableau Light'>ToyCraft Tales:  Tableau&apos;s Vision into Toy Manufacturer Data</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='18' param='vert' type-v2='layout-flow' w='99026' x='487' y='999'>
+                <zone h='6118' id='7' type-v2='title' w='99026' x='487' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#1b1b1b' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43446' id='9' is-fixed='true' name='Sheet 2' w='32400' x='2375' y='8365'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42322' id='8' is-fixed='true' name='Sheet 1' w='29720' x='37942' y='8489'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56679' id='15' is-fixed='true' name='Sheet 5' w='27406' x='70037' y='16355'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43196' id='13' is-fixed='true' name='Sheet 3' w='32156' x='2253' y='53308'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40949' id='14' is-fixed='true' name='Sheet 4' w='29415' x='38429' y='55056'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C5B8DAAE-0770-4490-9FE4-317977B5458B}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='From Factory to Fun: ToyCraft&apos;s Yearly Manufacturing Data' captured-sheet='Sheet 1' id='1' />
+                  <story-point caption='Production Peaks: Top 10 ToyCraft Sites in the U.S' captured-sheet='Sheet 2' id='2' />
+                  <story-point caption='ToyCraft by the Numbers: Indexed Manufacturing Trends' captured-sheet='Sheet 3' id='3' />
+                  <story-point caption='Analysis on Toy Manufacturers' captured-sheet='Sheet 4' id='4' />
+                  <story-point caption='Shaping the Toy Sphere: Index-Based Distribution' captured-sheet='Sheet 5' id='5' />
+                  <story-point caption='Shaping the Toy Sphere: Index-Based Distribution' captured-sheet='Sheet 5' id='6' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{7F7DEFE8-B789-49D2-BF30-2675F0239BC3}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{69F1AD02-5BB8-4498-904B-81179AE6E193}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{60BEC294-7ABC-4572-A65A-99108371A9C9}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{569446FE-309D-4C00-9D6D-242183F0A92B}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pt1slz1bj5ybq1955ll90puhocg].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D7218B49-F83C-47AF-AE2A-5DF00D93402A}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pt1slz1bj5ybq1955ll90puhocg].[none:State:nk]' type='color' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{EE678A76-B6D8-45DF-8E10-5E5EDB8C2445}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0C6164BA-91A5-4063-B1CE-DCAF04BF931D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{3365396A-C2C8-44CE-9556-1B3A8496D140}' />
+    </window>
+  </windows>
+</workbook>
